@@ -48,6 +48,15 @@
         };
     }
 
+
+
+
+
+
+
+
+
+
     var pickAnything = document.querySelector("#pick-anything");
     if (pickAnything) {
         pickAnything.onclick = function () {
@@ -70,6 +79,11 @@
             };
         };
     }
+
+
+
+
+
 
     var record = document.querySelector("#record");
     if (record) {
@@ -98,7 +112,7 @@
             new MozActivity({
                 name: "dial",
                 data: {
-                    number: "+46777888999"
+                    number: "+345555555"
                 }
             });
         };
@@ -111,7 +125,7 @@
                 name: "new", // Possible compose-sms in future versions
                 data: {
                     type: "websms/sms",
-                    number: "+46777888999"
+                    number: "+345555555"
                 }
             });
         };
@@ -125,13 +139,13 @@
                 data: {
                     type: "webcontacts/contact",
                     params: { // Will possibly move to be direct properties under "data"
-                        givenName: "Robert",
-                        lastName: "Nyman",
-                        tel: "+44789",
-                        email: "robert@mozilla.com",
-                        address: "San Francisco",
+                        givenName: "Pablo",
+                        lastName: "Bernardo",
+                        tel: "+5555555",
+                        email: "voylinux@mozilla-hispano.org",
+                        address: "Spain",
                         note: "This is a note",
-                        company: "Mozilla"
+                        company: "Mozilla Hispano"
                     }
                 }
             });
@@ -146,7 +160,7 @@
                 data: {
                     //type: "url", // Possibly text/html in future versions,
                     number: 1,
-                    url: "http://robertnyman.com"
+                    url: "http://voylinux.com"
                 }
             });
         };
@@ -191,7 +205,7 @@
                 name: "view",
                 data: {
                     type: "url", // Possibly text/html in future versions
-                    url: "http://robertnyman.com"
+                    url: "http://voylinux.com"
                 }
             });
         };
@@ -217,9 +231,9 @@
                 name: "save-bookmark",
                 data: {
                     type: "url",
-                    url: "http://robertnyman.com",
-                    name: "Robert's talk",
-                    icon: "http://robertnyman.com/favicon.png"
+                    url: "http://voylinux.com",
+                    name: "Voylinux's web",
+                    icon: "http://voylinux.com/favicon.png"
                 }
             });
         };
