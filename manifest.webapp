@@ -34,15 +34,15 @@
   },
   "locales": {
      "en": {
-      "name": "Firefox OS Boilerplate App",
+      "name": "Mallorca JS",
       "description": "Boilerplate Firefox OS app with example use cases to get started"
     },
     "en-US": {
-      "name": "Firefox OS Boilerplate App",
+      "name": "Mallorca JS",
       "description": "Boilerplate Firefox OS app with example use cases to get started"
     },
     "es": {
-      "name": "App base para Firefox OS",
+      "name": "Mallorca JS",
       "description": "App base para Firefox OS con ejemplos de usos para empezar"
     }
   }
